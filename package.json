@@ -1,0 +1,31 @@
+{
+  "name": "koa-graphql",
+  "version": "1.0.0",
+  "description": "Koa Graphql App",
+  "main": "server.js",
+  "scripts": {
+    "seed": "node seed",
+    "start": "node server",
+    "test": "jest test/*.test.js"
+  },
+  "keywords": [],
+  "author": "Yasser Hussain",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^4.0.0",
+    "graphql": "^0.11.7",
+    "jsonwebtoken": "^8.1.0",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-graphql": "^0.7.3",
+    "koa-router": "^7.3.0",
+    "koajs": "^1.0.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "supertest": "^3.0.0"
+  }
+}
